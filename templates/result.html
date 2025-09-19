@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Extraction Result</title>
+  </head>
+  <body>
+    <h2>Extracted Text from {{ filename }}</h2>
+    <pre style="white-space: pre-wrap; border: 1px solid #ccc; padding: 10px">
+{{ text }}
+    </pre>
+    <a href="/download/{{ download_file }}">
+      <button>Download as .txt</button>
+    </a>
+    <br /><br />
+    <a href="/">Upload another file</a>
+  </body>
+</html>
