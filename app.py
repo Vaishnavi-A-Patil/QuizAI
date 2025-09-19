@@ -7,7 +7,7 @@ from PIL import Image
 import pytesseract
 
 app = Flask(__name__)
-app.secret_key = "secret123"
+app.secret_key = "secret1234"
 
 UPLOAD_FOLDER = os.path.join(os.getcwd(), 'uploads')
 EXTRACT_FOLDER = os.path.join(os.getcwd(), 'extracted')
